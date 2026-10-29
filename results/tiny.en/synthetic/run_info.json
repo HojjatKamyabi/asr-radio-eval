@@ -1,0 +1,32 @@
+{
+  "model": "tiny.en",
+  "dataset": "synthetic",
+  "n_messages": 30,
+  "device": "cpu",
+  "compute_type": "int8",
+  "asr_settings": {
+    "language": "en",
+    "beam_size": 1,
+    "temperature": 0.0,
+    "condition_on_previous_text": false,
+    "vad_filter": false
+  },
+  "seeds": {
+    "messages": 42,
+    "noise": "clip id",
+    "bootstrap": 0,
+    "bootstrap_resamples": 1000
+  },
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.4",
+    "jiwer": "4.0.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "matplotlib": "3.11.2"
+  },
+  "date": "2026-10-29T11:42:54+00:00"
+}
